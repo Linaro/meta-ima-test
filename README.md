@@ -18,6 +18,14 @@ The meta-ima-test layer depends on:
 
 Please follow the recommended setup procedures of your OE distribution.
 
+Usage
+-------------------------
+
+To build the IMA enabled kernel:
+
+	MACHINE=beagle-x15-ima bitbake virtual/kernel
+
+Use the results in DEPLOYDIR like you would on a 'regular' beagle-x15 build.
 
 Contributing
 -------------------------
